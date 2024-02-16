@@ -1,0 +1,22 @@
+{
+  "name": "@snskar125/rn-skeleton",
+  "version": "1.0.0",
+  "description": "Zero Dependency Skeleton Placeholder for React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snskar125/rn-skeleton.git"
+},
+  "keywords": [
+    "skeleton",
+    "loading",
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "author": "snskar125",
+  "license": "ISC"
+}
