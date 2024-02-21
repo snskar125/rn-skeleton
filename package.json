@@ -1,6 +1,6 @@
 {
   "name": "@snskar125/rn-skeleton",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Zero Dependency Skeleton Placeholder for React Native",
   "main": "index.js",
   "scripts": {

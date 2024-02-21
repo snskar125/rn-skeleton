@@ -1,7 +1,7 @@
 import { memo, useEffect, useRef } from "react";
 import { Animated, StyleSheet } from "react-native";
 const Skeleton = memo((props) => {
-  const { style, ...rest } = props;
+  const { style, children, ...rest } = props;
   const opacity = useRef(new Animated.Value(1)).current;
   useEffect(() => {
     const animation = Animated.loop(
@@ -22,7 +22,9 @@ const Skeleton = memo((props) => {
     return animation.stop;
   }, []);
   return (
-    <Animated.View style={[styles.skeleton, style, { opacity }]} {...rest} />
+    <Animated.View style={[styles.skeleton, style, { opacity }]} {...rest}>
+      {children}
+    </Animated.View>
   );
 });
 const styles = StyleSheet.create({

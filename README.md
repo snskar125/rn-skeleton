@@ -6,7 +6,7 @@ Zero Dependency Skeleton Placeholder for React Native
 import Skeleton from '@snskar125/rn-skeleton'
 export default function App(){
     return (
-        <Skeleton style={{width:200, height:50, backgroundColor:'#808080'}}/>
+        <Skeleton style={{width:200, height:50, backgroundColor:'#DDD'}}/>
     )
 }
 ```
